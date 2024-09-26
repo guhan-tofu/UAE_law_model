@@ -8,6 +8,7 @@ The main goal of this project is to develop a machine learning model that can as
 
 ### Key Features:
 - **Fine-tuned Transformer Model:** A pre-trained language model (TinyLlama-1b) is fine-tuned on UAE legal texts.
+- **PEFT:** The model is quantized to 4-bit and using LoRA to train only about 28% of the model to reduce computational cost
 - **Legal Document Analysis:** The model is trained to handle large and complex legal documents, providing insights and answering queries.
 - **Customizable for Specific Law Categories:** The model can be adapted to analyze different types of laws (e.g., commercial, criminal, civil).
 
@@ -20,7 +21,7 @@ The dataset used for training contains UAE legal documents across different lega
 
 ## Model
 
-The model is fine-tuned using a pre-trained transformer (such as BERT or LLaMA) and is trained specifically on legal data. It is capable of performing tasks such as:
+The model is a pretrained TInyLlama-1b model that has been continued pretrained along with finetuning and is trained specifically on legal data. It is capable of performing tasks such as:
 - Legal text classification.
 - Extracting key information from documents.
 - Answering legal questions based on UAE laws.
