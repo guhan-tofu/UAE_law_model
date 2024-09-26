@@ -7,7 +7,7 @@ This repository contains a machine learning model built for legal text analysis,
 The main goal of this project is to develop a machine learning model that can assist in understanding and processing legal texts from UAE laws. The model is built using transformer-based architectures and has been fine-tuned on a dataset of UAE legal documents. This model can be used to assist legal professionals and researchers in extracting meaningful insights and answers from legal texts.
 
 ### Key Features:
-- **Fine-tuned Transformer Model:** A pre-trained language model (such as BERT or LLaMA) is fine-tuned on UAE legal texts.
+- **Fine-tuned Transformer Model:** A pre-trained language model (TinyLlama-1b) is fine-tuned on UAE legal texts.
 - **Legal Document Analysis:** The model is trained to handle large and complex legal documents, providing insights and answering queries.
 - **Customizable for Specific Law Categories:** The model can be adapted to analyze different types of laws (e.g., commercial, criminal, civil).
 
@@ -29,7 +29,11 @@ The model is fine-tuned using a pre-trained transformer (such as BERT or LLaMA) 
 
 To run this project, you will need the following Python packages:
 
-transformers==4.30.2 torch==2.0.1 pandas==2.1.1 numpy==1.23.5 scikit-learn==1.3.0
+-transformers==4.30.2 
+-torch==2.0.1 
+-pandas==2.1.1 
+-numpy==1.23.5 
+-scikit-learn==1.3.0
 
 Install the required dependencies using:
 
