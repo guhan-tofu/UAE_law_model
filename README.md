@@ -12,6 +12,13 @@ The main goal of this project is to develop a machine learning model that can as
 - **Legal Document Analysis:** The model is trained to handle large and complex legal documents, providing insights and answering queries.
 - **Customizable for Specific Law Categories:** The model can be adapted to analyze different types of laws (e.g., commercial, criminal, civil).
 
+## Dataset Preparation
+
+Extracting text from several Government issued documents available on UAE gov and performing Data cleaning.
+- **Data Type**: The data consisted of english and arabic data, mostly text.
+- **Cleaning**: Performed deduplication, splitting to chunks and removal of foreign languages.
+- **Evaluation**: Tokenizing the data and evaluating number of tokens procured.
+
 ## Dataset
 
 The dataset used for training contains UAE legal documents across different legal domains. It is preprocessed and cleaned to ensure that the model can effectively learn from the data. The dataset includes fields such as:
