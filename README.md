@@ -38,10 +38,20 @@ The model is a pretrained TInyLlama-1b model that has been continued pretrained 
 To run this project, you will need the following Python packages:
 
 -transformers==4.30.2 
+
+
 -torch==2.0.1 
+
+
 -pandas==2.1.1 
+
+
 -numpy==1.23.5 
+
+
 -scikit-learn==1.3.0
+
+
 
 Install the required dependencies using:
 
